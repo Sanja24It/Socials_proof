@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  background-image: url(./images/bg-pattern-top-desktop.svg),
+    url(./images/bg-pattern-bottom-desktop.svg);
+  background-position: left 1rem top -1rem, bottom -3rem right 7rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 58.75rem;
+  padding: 1.25rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.content {
+  flex-basis: 25rem;
+}
+
+.content h1 {
+  color: #502050;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.content p {
+  color: #937b92;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.raitings {
+  flex-direction: column;
+  margin-top: 2.5rem;
+}
+.raiting p {
+  margin: 0;
+  padding: 0;
+}
+
+.raiting {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+
+  border-radius: 0.5rem;
+  background-color: hsl(300, 24%, 96%);
+}
+.one {
+  margin-right: 5rem;
+}
+.two {
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+
+.three {
+  margin-left: 7rem;
+}
+.text {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: #502050;
+  font-weight: 700;
+}
+
+.wrapper_two {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.box {
+  background-color: #502050;
+
+  border-radius: 0.5rem;
+
+  padding: 1rem;
+  flex-basis: 16.6rem;
+}
+
+.box p {
+  color: #fff;
+}
+
+#two {
+  position: relative;
+  top: 1.5rem;
+}
+#three {
+  position: relative;
+  top: 2.5rem;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar p {
+  font-weight: 700;
+}
+
+.pink {
+  font-weight: 400;
+  color: #ee68a4;
+}
+
+.avatar img {
+  max-height: 2.5rem;
+  max-width: 2.5rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+@media screen and (min-width: 15.625rem) and (max-width: 47.938rem) {
+  .main {
+    width: 80%;
+
+    padding: 2rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-basis: 40%;
+  }
+
+  .content h1 {
+    color: #502050;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+
+  .content p {
+    color: #937b92;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+
+  .raitings {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+  }
+
+  .raiting {
+    width: 80%;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color: hsl(300, 24%, 96%);
+  }
+
+  .raiting p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .text {
+    margin-top: 1rem;
+    display: block;
+    color: #502050;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .wrapper_two {
+    display: flex;
+    flex-direction: column;
+  }
+  .box {
+    background-color: #502050;
+    flex-basis: 60%;
+    padding: 2rem;
+
+    border-radius: 0.5rem;
+  }
+
+  .box p {
+    color: #fff;
+  }
+
+  .avatar {
+    display: flex;
+    align-items: center;
+  }
+
+  .avatar p {
+    font-weight: 700;
+  }
+
+  .pink {
+    font-weight: 400;
+    color: #ee68a4;
+  }
+
+  .avatar img {
+    max-height: 2.5rem;
+    max-width: 2.5rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+}
+@media screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  .main {
+    width: 80%;
+
+    padding: 2rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-basis: 40%;
+  }
+
+  .content h1 {
+    color: #502050;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+
+  .content p {
+    color: #937b92;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+
+  .raitings {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+  }
+
+  .raiting {
+    width: 80%;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color: hsl(300, 24%, 96%);
+  }
+
+  .raiting p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .text {
+    margin-top: 1rem;
+    display: block;
+    color: #502050;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .wrapper_two {
+    display: flex;
+    flex-direction: column;
+  }
+  .box {
+    background-color: #502050;
+    flex-basis: 60%;
+    padding: 2rem;
+
+    border-radius: 0.5rem;
+  }
+
+  .box p {
+    color: #fff;
+  }
+
+  .avatar {
+    display: flex;
+    align-items: center;
+  }
+
+  .avatar p {
+    font-weight: 700;
+  }
+
+  .pink {
+    font-weight: 400;
+    color: #ee68a4;
+  }
+
+  .avatar img {
+    max-height: 2.5rem;
+    max-width: 2.5rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+}
